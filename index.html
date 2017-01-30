@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>mrmax</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id = "title"><p>Adrien&#8482;</p>
+<h1>sir maxalot, a study</h1>
+<p>Sharks are a group of fish characterized by a cartilaginous skeleton, five to seven gill slits on the sides of the head, and pectoral fins that are not fused to the head. Modern sharks are classified within the clade Selachimorpha (or Selachii) and are the sister group to the rays. However, the term "shark" has also been used for extinct members of the subclass Elasmobranchii outside the Selachimorpha, such as Cladoselache and Xenacanthus, as well as other Chondrichthyes such as the holocephalid eugenedontidans. Under this broader definition, the earliest known sharks date back to more than 420 million years ago.[1] Acanthodians are often referred to as "spiny sharks"; though they are not part of Chondrichthyes proper, they are a paraphyletic assemblage leading to cartilaginous fish as a whole.</p>
+</div>
+<h2>commercial break</h2>
+</html><p>get your happy meal at mcdonalds today!</p>
+<h2>now a picture of Max</h2>
+<img src = "shark.jpeg">
+<p>Max's home below:</p>
+</div>
+<div id="map" style="width:100%;height:500px"></div>
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(21.3069, 157.8583), 
+    zoom: 5
+  }
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+</body>
